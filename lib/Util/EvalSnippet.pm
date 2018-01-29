@@ -6,7 +6,7 @@ use PadWalker qw(peek_my peek_our);
 use File::Slurp qw(read_file);
 use Cwd 'abs_path';
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 sub import {
   my ($package, $msg) = @_;
